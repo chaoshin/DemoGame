@@ -12,6 +12,7 @@
 		A0E62EDA2070C3A3007D4560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E62ED82070C3A3007D4560 /* Main.storyboard */; };
 		A0E62EDC2070C3A4007D4560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E62EDB2070C3A4007D4560 /* Assets.xcassets */; };
 		A0E62EDF2070C3A4007D4560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E62EDD2070C3A4007D4560 /* LaunchScreen.storyboard */; };
+		A0EAFD6520712BDC003EC503 /* TigerWreckChickenEatingInsectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EAFD6420712BDC003EC503 /* TigerWreckChickenEatingInsectsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A0E62EDB2070C3A4007D4560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0E62EDE2070C3A4007D4560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0E62EE02070C3A4007D4560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0EAFD6420712BDC003EC503 /* TigerWreckChickenEatingInsectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigerWreckChickenEatingInsectsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A0E62ED42070C3A3007D4560 /* AppDelegate.swift */,
 				A0E62ED62070C3A3007D4560 /* ViewController.swift */,
 				A0E62ED82070C3A3007D4560 /* Main.storyboard */,
+				A0EAFD6420712BDC003EC503 /* TigerWreckChickenEatingInsectsViewController.swift */,
 				A0E62EDB2070C3A4007D4560 /* Assets.xcassets */,
 				A0E62EDD2070C3A4007D4560 /* LaunchScreen.storyboard */,
 				A0E62EE02070C3A4007D4560 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0EAFD6520712BDC003EC503 /* TigerWreckChickenEatingInsectsViewController.swift in Sources */,
 				A0E62ED72070C3A3007D4560 /* ViewController.swift in Sources */,
 				A0E62ED52070C3A3007D4560 /* AppDelegate.swift in Sources */,
 			);
@@ -281,7 +285,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4GPCCYM3K;
 				INFOPLIST_FILE = DemoGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +304,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4GPCCYM3K;
 				INFOPLIST_FILE = DemoGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
